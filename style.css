@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    margin: 0; 
+    padding: 0; 
+    text-align: center; 
+    font-family: "Handlee", sans-serif; 
+    color: black; 
+    background: lightblue; 
+}
+
+a {
+    text-decoration: none; 
+    color: lightgrey; 
+}
+a:hover {
+    color: #6633ff; 
+}
+
+.main-nav {
+    width: 100%; 
+    background: black; 
+    min-height: 30px; 
+    padding: 10px; 
+    position: fixed; 
+    text-align: center; 
+}
+
+.nav {
+    display: flex; 
+    justify-content: space-around; 
+    font-weight: 700; 
+    list-style-type: none; 
+    margin: 0 auto; 
+    padding: 0; 
+}
+
+.nav .name {
+    display: block; 
+    margin-right: auto; 
+    color: white; 
+}
+
+.nav li {
+    padding: 5px 10px 10px 10px; 
+}
+
+.nav a {
+    transition: all .5s; 
+}
+
+.nav a:hover {
+    color: darkslateblue; 
+}
+
+header {
+    text-align: center; 
+    background: url('images/sandiego.jpg') no-repeat top center;
+    background-size: contain;  
+    overflow: hidden; 
+    padding-top: 60px; 
+}
+
+header {
+    line-height: 1.5; 
+}
+
+header .profile-pic {
+    margin-top: 50px; 
+    margin-bottom: 25px; 
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    border: 3px solid white; 
+    transition: all .5s; 
+}
+
+header .profile-pic:hover {
+    transform: scale(1.2) rotate(5deg); 
+}
+
+.tag {
+    background-color: #efefef; 
+    padding: 10px; 
+    border-radius: 5px; 
+    display: table; 
+    margin: 10px auto; 
+    opacity: 0.75; 
+}
+
+.name {
+    color: black; 
+}
+
+.location {
+    background-color: #222; 
+    color: yellow; 
+    margin-bottom: 40px; 
+}
+
+.card {
+    margin: 30px; 
+    padding: 20px 40px 40px; 
+    max-width: 500px; 
+    text-align: left; 
+    background: #fff; 
+    border-bottom: 4px solid #ccc; 
+    border-radius: 6px; 
+    transition: all .5s; 
+}
+
+.flex {
+    display: -ms-flexbox; 
+    display: flex; 
+    max-width: 1200px; 
+    -ms-flex-pack: distribute; 
+    justify-content: space-around; 
+    margin: 0 auto; 
+}
+
+.exp-card {
+    margin: 30px auto; 
+    padding: 20px 40px 40px; 
+    max-width: 500px; 
+    background: #fff; 
+    border-bottom: 4px solid #ccc; 
+    border-radius: 6px; 
+    transition: all .5s; 
+    text-align: center; 
+    position: relative; 
+}
+
+h2 {
+    text-align: center; 
+    font-size: 30px; 
+    font-weight: bold; 
+}
+
+h3 .exp {
+    text-decoration: underline; 
+}
+
+.learn {
+    text-align: center; 
+}
+
+.card:hover {
+    border-color: #ff99ff;  
+}
+
+ul.skills {
+    padding: 0; 
+    text-align: center; 
+}
+
+.skills li {
+    border-radius: 6px; 
+    display: inline-block; 
+    background: #ff9904; 
+    color: white; 
+    padding: 5px 10px; 
+    margin: 2px; 
+}
+
+.skills li:nth-child(odd) {
+    background: #0399ff; 
+}
+
+footer {
+    width: 100%; 
+    min-height: 30px; 
+    padding: 20px 0 40px 20px; 
+}
+
+footer .copyright {
+    top: -8px; 
+    font-size: .75em; 
+}
+
+footer ul {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+}
+
+footer ul li {
+    display: inline-block; 
+}
+
+a.social {
+    display: inline-block; 
+    text-indent: -9999px; 
+    margin-left: 5px; 
+    width: 30px; 
+    height: 30px; 
+    background-size: 30px 30px; 
+    opacity: .4; 
+    transition: all .5s; 
+}
+
+a.linkedin {
+    background-image: url(images/linkedin.svg); 
+}
+
+a.github {
+    background-image: url(images/github.svg); 
+}
+
+a.social:hover {
+    opacity: 1; 
+}
+
+.clearfix {
+    clear: both; 
+}
+
+.learn {
+    display: block; 
+}
+
+.secondary {
+    font-size: 50px; 
+}
+
+header .supplement {
+    width: 50%; 
+}
